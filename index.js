@@ -15,7 +15,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 const bodyParser = require('body-parser');
 
-// Middleware to parse JSON body data
+// Middleware to parse JSON body DATA
 app.use(express.urlencoded({ extended: true })); // For form data
 app.use(express.json());
 
