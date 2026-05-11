@@ -6,7 +6,7 @@ const cors = require('cors');
 const session = require('express-session');
 
 
-// Initialize the express app
+// Initialize the express 
 const app = express();
 
 // Set EJS as the view engine
